@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    background-color: #1A3636;
+    width: 50%;
+    margin: 5% auto;
+    border-radius: 1rem;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+}
+.form-container,#list-container{
+margin: 1rem;
+width: 80%;
+border-radius: 1rem;
+padding: 15px;
+
+
+}
+.form-container{
+    background-color: #40534C;
+    height: 4rem;
+  
+ }
+
+ #list-container {
+    background-color: #677D6A;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    overflow: scroll;
+ }
+input[type="text"]{
+    height: 2rem;
+    width: 60%;
+    position: relative;
+    left: 2%;
+    border-radius:0.5rem;
+}
+.buttonsub{
+    height: 2rem;
+    width: 15%;
+    position: relative;
+    left: 2.5%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.list-item{
+    background-color: #D6BD98;
+    margin: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.removebutton{
+    background-color: none;
+    
+}
